@@ -13,7 +13,7 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # URL веб-сайта, номер телефона, ссылка на прайс-лист и адрес офисов
-website_url = 'https://www.translit-nvrsk.ru/ru'
+website_url = 'http://www.translit-nvrsk.ru/ru'
 phone_number = '+79883232525'
 price_list_url = 'https://www.translit-nvrsk.ru/price_list'
 office_address = 'г. Новороссийск, ул. Советов, 42 (БЦ "Черноморский"), офис №1,. г. Новороссийск, ул. Мира, 37 (рядом с нотариальной конторой)'
