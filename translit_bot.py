@@ -78,8 +78,7 @@ def process_translation_to_english(message):
         bot.send_message(message.chat.id, f"Перевод с русского на английский: {translated_text}")
     except Exception as e:
         bot.reply_to(message, "Произошла ошибка при переводе.")
-        bot.register_next_step_handler(message, process_translation_to_english)
-
+    send_main_menu(message)
 
 def process_translation_to_russian(message):
     try:
@@ -87,7 +86,7 @@ def process_translation_to_russian(message):
         bot.reply_to(message.chat.id, f"Перевод с английского на русский: {translated_text}")
     except Exception as e:
         bot.reply_to(message, "Произошла ошибка при переводе")
-        bot.register_next_step_handler(message, process_translation_to_russian)
+    send_main_menu(message)
 
 # Функция для отправки главного меню
 def send_main_menu(message):
