@@ -3,7 +3,6 @@ import telebot
 from dotenv import load_dotenv
 from telebot import types
 
-
 # Загрузка переменных окружения из файла .env
 load_dotenv()
 
@@ -53,10 +52,13 @@ def send_office_address(message):
     send_main_menu(message)
 
 
-@bot.message_handler(func=lambda message: message.text == "Звонок на номер")
+@bot.message_handler(func=lambda message: message.text == "Наши Контакты")
 def make_phone_call(message):
-    bot.send_contact(message.chat.id, phone_number,"Советов 42 офис № 1")
+    bot.send_contact(message.chat.id, "Советов 42 (офис №1) звоните по номеру: +79881313424")
+    bot.send_contact(message.chat.id, phone_number,
+                     "Мира (рядом с нотариальной конторой) звоните по номеру: +79883232525")
     send_main_menu(message)
+
 
 # Функция для отправки главного меню
 def send_main_menu(message):
