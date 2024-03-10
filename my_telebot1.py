@@ -1,8 +1,8 @@
 import os
 import telebot
 from dotenv import load_dotenv
-from googletrans import Translator
 from telebot import types
+from googletrans import Translator
 
 # Загрузка переменных окружения из файла .env
 load_dotenv()
@@ -64,35 +64,40 @@ def make_phone_call(message):
 def translate_to_english(message):
     bot.reply_to(message, "Введите текст для перевода с русского на английский.")
     bot.register_next_step_handler(message, process_translation_to_english)
-    send_main_menu(message)
+
 
 @bot.message_handler(func=lambda message: message.text == "Перевести с английского на русский")
 def translate_to_russian(message):
     bot.reply_to(message, "Введите текст для перевода с английского на русский.")
     bot.register_next_step_handler(message, process_translation_to_russian)
-    send_main_menu(message)
 
 
 def process_translation_to_english(message):
     try:
         translated_text = translate_text(message.text, 'ru', 'en')
-        bot.reply_to(message, f"Перевод с русского на английский: {translated_text}")
+        bot.send_message(message.chat.id, f"Перевод с русского на английский: {translated_text}")
     except Exception as e:
         bot.reply_to(message, "Произошла ошибка при переводе.")
+        bot.register_next_step_handler(message, process_translation_to_english)
 
 
 def process_translation_to_russian(message):
     try:
         translated_text = translate_text(message.text, 'en', 'ru')
-        bot.reply_to(message, f"Перевод с английского на русский: {translated_text}")
+        bot.reply_to(message.chat.id, f"Перевод с английского на русский: {translated_text}")
     except Exception as e:
         bot.reply_to(message, "Произошла ошибка при переводе")
-
+        bot.register_next_step_handler(message, process_translation_to_russian)
 
 # Функция для отправки главного меню
 def send_main_menu(message):
     bot.send_message(message.chat.id, "Выберите действие из меню.", reply_markup=main_menu_markup)
 
+
+def translate_text(text, source_lang, dest_lang):
+    translator = Translator()
+    translated = translator.translate(text, src=source_lang, dest=dest_lang)
+    return translated.text
 
 # Главный цикл обработки сообщений
 bot.polling(none_stop=True)
