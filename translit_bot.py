@@ -20,7 +20,8 @@ office_address = 'г. Новороссийск, ул. Советов, 42 (БЦ "
 # Создаем клавиатуру главного меню
 main_menu_markup = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
 main_menu_markup.row(types.KeyboardButton("Ссылка на сайт"), types.KeyboardButton("Наши Контакты"))
-main_menu_markup.row(types.KeyboardButton("Прайс услуг"), types.KeyboardButton("Адрес офисов"))
+main_menu_markup.row(types.KeyboardButton("Прайс услуг"), types.KeyboardButton("Адрес офисов"),
+                     types.KeyboardButton("Стоимость паспортов"))
 
 
 # Обработчик команды /start и /help
@@ -31,6 +32,12 @@ def send_welcome(message):
     bot.reply_to(message, welcome_message, reply_markup=main_menu_markup)
     send_main_menu(message)
 
+
+@bot.message_handler(func=lambda message: message.text == "Стоймость паспортов")
+def send_passport_price(message):
+    passport_price_text = """стоймость паспортов:
+    -Перевод паспорта РФ -1000руб."""
+    bot.reply_to(message, passport_price_text)
 
 # Обработчик кнопок
 @bot.message_handler(func=lambda message: message.text == "Ссылка на сайт")
@@ -47,7 +54,11 @@ def send_price_list(message):
 
 @bot.message_handler(func=lambda message: message.text == "Адрес офисов")
 def send_office_address(message):
-    bot.reply_to(message, f"Адрес наших офисов: {office_address}")
+    office_address_1 = "Адрес офиса на улице Советов (офис №1):\nг. Новороссийск, ул. Советов, 42 (БЦ 'Черноморский')"
+    office_address_2 = "Адрес офиса на улице Мира:\nг. Новороссийск, ул. Мира, 37 (рядом с нотариальной конторой)"
+
+    bot.send_message(message.chat.id, office_address_1)
+    bot.send_message(message.chat.id, office_address_2)
     send_main_menu(message)
 
 
