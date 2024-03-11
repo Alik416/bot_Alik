@@ -12,17 +12,21 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 # Инициализация бота
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# URL веб-сайта, номер телефона, ссылка на прайс-лист и адрес офисов
-website_url = 'http://www.translit-nvrsk.ru'
-phone_number = '+79883232525'
-price_list_url = 'http://www.translit-nvrsk.ru/ru/ct-menu-item-3'
-office_address = 'г. Новороссийск, ул. Советов, 42 (БЦ "Черноморский"), офис №1,. г. Новороссийск, ул. Мира, 37 (рядом с нотариальной конторой)'
 
 # Создаем клавиатуру главного меню
 main_menu_markup = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
-main_menu_markup.row(types.KeyboardButton("Ссылка на сайт"), types.KeyboardButton("Звонок на номер"))
-main_menu_markup.row(types.KeyboardButton("Прайс услуг"), types.KeyboardButton("Адрес офисов"))
+main_menu_markup.row(types.KeyboardButton("Ссылка на сайт"), types.KeyboardButton("Наши Контакты"))
+main_menu_markup.row(types.KeyboardButton("Прайс услуг"), types.KeyboardButton("Адрес офисов"), types.KeyboardButton("Апостиль-Консульская легализация"))
 
+
+# Функция для отправки главного меню
+def send_main_menu(message):
+    bot.send_message(message.chat.id, "Выберите действие из меню.", reply_markup=main_menu_markup)
+
+# Функция для чтения списка стран из файла
+def read_countries_list(filename):
+    with open(filename, 'r', encoding='utf-8') as file:
+        return file.read()
 
 # Обработчик команды /start и /help
 @bot.message_handler(commands=['start', 'help'])
@@ -33,37 +37,59 @@ def send_welcome(message):
     send_main_menu(message)
 
 
-# Обработчик кнопок
+# Обработчик кнопки "Апостиль"
+@bot.message_handler(func=lambda message: message.text == "Апостиль-Консульская легализация")
+def send_apostille_info(message):
+    apostille_info = "Апостиль - это международное удостоверение подлинности документов, " \
+                     "применяемое в странах, участниках Гаагской конвенции 1961 года. " \
+                     "Он упрощает процедуру признания документов за границей. " \
+                     "Апостиль проставляется на документах официальными органами государства, " \
+                     "выдавшего документ, и подтверждает подлинность подписи, качество печати и т. д."
+    bot.reply_to(message, apostille_info)
+    send_main_menu(message)
+    send_countries_button(message)
+
+
+def send_countries_button(message):
+    countries_button = types.KeyboardButton("Список стран")
+    bot.send_message(message.chat.id, "Для получения списка стран, требующих легализации, нажмите кнопку ниже:",
+                    reply_markup = types.ReplyKeyboardMarkup(one_time_keyboard=True).add(countries_button))
+
+    @bot.message_handler(func=lambda message: message.text == "Список стран")
+    def send_countries_list(message):
+        countries_list = read_countries_list("countries_list.txt")
+        bot.reply_to(message, countries_list)
+        send_main_menu(message)
+    # Обработчик кнопок
 @bot.message_handler(func=lambda message: message.text == "Ссылка на сайт")
 def send_website_link(message):
+    website_url = 'http://www.translit-nvrsk.ru'
     bot.reply_to(message, f"Вы можете посетить наш веб-сайт здесь: {website_url}")
     send_main_menu(message)
 
-
 @bot.message_handler(func=lambda message: message.text == "Прайс услуг")
 def send_price_list(message):
+    price_list_url = 'http://www.translit-nvrsk.ru/ru/ct-menu-item-3'
     bot.reply_to(message, f"Вы можете посмотреть наш прайс услуг по ссылке: {price_list_url}")
     send_main_menu(message)
 
-
 @bot.message_handler(func=lambda message: message.text == "Адрес офисов")
 def send_office_address(message):
+    office_address = 'г. Новороссийск, ул. Советов, 42 (БЦ "Черноморский"), офис №1,. г. Новороссийск, ул. Мира, 37 (рядом с нотариальной конторой)'
     bot.reply_to(message, f"Адрес наших офисов: {office_address}")
     send_main_menu(message)
 
-
 @bot.message_handler(func=lambda message: message.text == "Наши Контакты")
-def make_phone_call(message):
-    bot.send_contact(message.chat.id, "Советов 42 (офис №1) звоните по номеру: +79881313424")
-    bot.send_contact(message.chat.id, phone_number,
-                     "Мира (рядом с нотариальной конторой) звоните по номеру: +79883232525")
+def send_contacts(message):
+    bot.send_message(message.chat.id, "Контакты офиса на улице Советов (офис №1):\n+79881313424", reply_markup=main_menu_markup)
+    bot.send_message(message.chat.id, "Контакты офиса на улице Мира (рядом с нотариальной конторой):\n+79883232525", reply_markup=main_menu_markup)
+
+# Обработчик кнопки "Страны для которых нужна легализация"
+@bot.message_handler(func=lambda message: message.text == "Страны для которых нужна легализация")
+def send_countries_list(message):
+    countries_list = read_countries_list("countries_list.txt")
+    bot.reply_to(message, countries_list)
     send_main_menu(message)
-
-
-# Функция для отправки главного меню
-def send_main_menu(message):
-    bot.send_message(message.chat.id, "Выберите действие из меню.", reply_markup=main_menu_markup)
-
 
 # Главный цикл обработки сообщений
 bot.polling(none_stop=True)
