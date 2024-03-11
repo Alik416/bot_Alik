@@ -12,15 +12,14 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 # Инициализация бота
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# URL веб-сайта, номер телефона, ссылка на прайс-лист и адрес офисов
+# URL веб-сайта, ссылка на прайс-лист и адрес офисов
 website_url = 'http://www.translit-nvrsk.ru'
-phone_number = '+79883232525'
 price_list_url = 'http://www.translit-nvrsk.ru/ru/ct-menu-item-3'
 office_address = 'г. Новороссийск, ул. Советов, 42 (БЦ "Черноморский"), офис №1,. г. Новороссийск, ул. Мира, 37 (рядом с нотариальной конторой)'
 
 # Создаем клавиатуру главного меню
 main_menu_markup = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
-main_menu_markup.row(types.KeyboardButton("Ссылка на сайт"), types.KeyboardButton("Звонок на номер"))
+main_menu_markup.row(types.KeyboardButton("Ссылка на сайт"), types.KeyboardButton("Наши Контакты"))
 main_menu_markup.row(types.KeyboardButton("Прайс услуг"), types.KeyboardButton("Адрес офисов"))
 
 
@@ -53,11 +52,9 @@ def send_office_address(message):
 
 
 @bot.message_handler(func=lambda message: message.text == "Наши Контакты")
-def make_phone_call(message):
-    bot.send_contact(message.chat.id, "Советов 42 (офис №1) звоните по номеру: +79881313424")
-    bot.send_contact(message.chat.id, phone_number,
-                     "Мира (рядом с нотариальной конторой) звоните по номеру: +79883232525")
-    send_main_menu(message)
+def send_contacts(message):
+    bot.send_message(message.chat.id, "Контакты офиса на улице Советов (офис №1):\n+79881313424", reply_markup=main_menu_markup)
+    bot.send_message(message.chat.id, "Контакты офиса на улице Мира (рядом с нотариальной конторой):\n+79883232525", reply_markup=main_menu_markup)
 
 
 # Функция для отправки главного меню
