@@ -33,11 +33,13 @@ def send_welcome(message):
     send_main_menu(message)
 
 
-@bot.message_handler(func=lambda message: message.text == "Стоймость паспортов")
+@bot.message_handler(func=lambda message: message.text == "Стоимость паспортов")
 def send_passport_price(message):
-    passport_price_text = """стоймость паспортов:
-    -Перевод паспорта РФ -1000руб."""
+    passport_price_text = """Стоимость паспортов:
+    - Перевод паспорта РФ - 1000 руб.
+    - Перевод с бирдянского"""
     bot.reply_to(message, passport_price_text)
+    send_main_menu(message)
 
 # Обработчик кнопок
 @bot.message_handler(func=lambda message: message.text == "Ссылка на сайт")
@@ -64,8 +66,10 @@ def send_office_address(message):
 
 @bot.message_handler(func=lambda message: message.text == "Наши Контакты")
 def send_contacts(message):
-    bot.send_message(message.chat.id, "Контакты офиса на улице Советов (офис №1):\n+79881313424", reply_markup=main_menu_markup)
-    bot.send_message(message.chat.id, "Контакты офиса на улице Мира (рядом с нотариальной конторой):\n+79883232525", reply_markup=main_menu_markup)
+    bot.send_message(message.chat.id, "Контакты офиса на улице Советов (офис №1):\n+79881313424",
+                     reply_markup=main_menu_markup)
+    bot.send_message(message.chat.id, "Контакты офиса на улице Мира (рядом с нотариальной конторой):\n+79883232525",
+                     reply_markup=main_menu_markup)
 
 
 # Функция для отправки главного меню
