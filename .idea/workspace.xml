@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1a7b19c-7039-4924-8a31-8d3a3d5b12e0" name="Changes" comment="Merge remote-tracking branch 'origin/version-1'&#10;&#10;v1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Documents.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.localized" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/444.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_telebot1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_telebot2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/price_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxx.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;searchQuery&quot;: &quot;version-1&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;searchQuery&quot;: &quot;version-1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="19041bd6-c852-4748-8965-e6b0de0d4912" />
+        <option name="url" value="git@github.com:Alik416/bot_Alik.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/my_telebot.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2anPOUgEovdOt3FDCdxL67ETzpT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.444.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bot_copy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gggggg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_telebot (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_telebot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_telebot1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_telebot2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.telebot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_drive command_bots )).executor&quot;: &quot;Run&quot;,
+    &quot;Python.translit_bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xxx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;version-1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olegsobolev/Documents&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Python.translit_bot">
+    <configuration name="bot_copy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Documents" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot_copy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Documents" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_telebot (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Documents" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Downloads/my_telebot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_telebot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Documents" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_telebot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_telebot1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Documents" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_telebot1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_telebot2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Documents" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_telebot2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="translit_bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Documents" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translit_bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.translit_bot" />
+        <item itemvalue="Python.my_telebot" />
+        <item itemvalue="Python.bot_copy" />
+        <item itemvalue="Python.my_telebot2" />
+        <item itemvalue="Python.my_telebot (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1a7b19c-7039-4924-8a31-8d3a3d5b12e0" name="Changes" comment="" />
+      <created>1704951338647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704951338647</updated>
+      <workItem from="1704951339971" duration="2954000" />
+      <workItem from="1705286726461" duration="4268000" />
+      <workItem from="1705367021344" duration="47166000" />
+      <workItem from="1705493067319" duration="533000" />
+      <workItem from="1705546072244" duration="3142000" />
+      <workItem from="1705552184379" duration="224000" />
+      <workItem from="1705552472525" duration="4795000" />
+      <workItem from="1705578639049" duration="599000" />
+      <workItem from="1705801512774" duration="789000" />
+      <workItem from="1705803220515" duration="11000" />
+      <workItem from="1705901629372" duration="1378000" />
+      <workItem from="1705903015370" duration="615000" />
+      <workItem from="1705904242632" duration="469000" />
+      <workItem from="1705904797504" duration="3463000" />
+      <workItem from="1705926405251" duration="127000" />
+      <workItem from="1705976077223" duration="2642000" />
+      <workItem from="1705981036827" duration="19000" />
+      <workItem from="1705981463917" duration="2226000" />
+      <workItem from="1705984860467" duration="4181000" />
+      <workItem from="1706070395719" duration="5090000" />
+      <workItem from="1706091592016" duration="108000" />
+      <workItem from="1706161578694" duration="598000" />
+      <workItem from="1706240725172" duration="2037000" />
+      <workItem from="1706247658070" duration="3773000" />
+      <workItem from="1706265824112" duration="1510000" />
+      <workItem from="1706336306411" duration="1023000" />
+      <workItem from="1706352994268" duration="1709000" />
+      <workItem from="1706502315338" duration="700000" />
+      <workItem from="1706503019364" duration="819000" />
+      <workItem from="1706503947038" duration="112000" />
+      <workItem from="1706504079883" duration="1586000" />
+      <workItem from="1706505672941" duration="620000" />
+      <workItem from="1706585592231" duration="608000" />
+      <workItem from="1706588417079" duration="814000" />
+      <workItem from="1706589236523" duration="334000" />
+      <workItem from="1706591286841" duration="1044000" />
+      <workItem from="1706595652430" duration="4141000" />
+      <workItem from="1706676935787" duration="1675000" />
+      <workItem from="1706685926431" duration="523000" />
+      <workItem from="1706691874206" duration="599000" />
+      <workItem from="1706845047691" duration="598000" />
+      <workItem from="1706868527517" duration="596000" />
+      <workItem from="1707050692027" duration="597000" />
+      <workItem from="1707108387256" duration="598000" />
+      <workItem from="1707118342685" duration="599000" />
+      <workItem from="1707185259937" duration="1211000" />
+      <workItem from="1707301048605" duration="459000" />
+      <workItem from="1707377923770" duration="2770000" />
+      <workItem from="1707495831811" duration="599000" />
+      <workItem from="1707526444002" duration="4721000" />
+      <workItem from="1707557818043" duration="7370000" />
+      <workItem from="1707805064672" duration="82000" />
+      <workItem from="1707805485498" duration="623000" />
+      <workItem from="1707877304116" duration="4108000" />
+      <workItem from="1707964818808" duration="606000" />
+      <workItem from="1708235975912" duration="5896000" />
+      <workItem from="1708307180803" duration="5328000" />
+      <workItem from="1708332077054" duration="3964000" />
+      <workItem from="1708388878638" duration="5297000" />
+      <workItem from="1708410608408" duration="3448000" />
+      <workItem from="1708430703383" duration="1380000" />
+      <workItem from="1708432090744" duration="653000" />
+      <workItem from="1708433829976" duration="1000" />
+      <workItem from="1708485799379" duration="1068000" />
+      <workItem from="1708486873663" duration="5317000" />
+      <workItem from="1708501508781" duration="6000" />
+      <workItem from="1708909154094" duration="204000" />
+      <workItem from="1709081260202" duration="5827000" />
+      <workItem from="1709095943798" duration="5143000" />
+      <workItem from="1709113872510" duration="258000" />
+      <workItem from="1709114143298" duration="2710000" />
+      <workItem from="1709118485105" duration="617000" />
+      <workItem from="1709190493111" duration="2325000" />
+      <workItem from="1709275362527" duration="1857000" />
+      <workItem from="1709283817511" duration="598000" />
+      <workItem from="1709341566101" duration="2165000" />
+      <workItem from="1709461261884" duration="3697000" />
+      <workItem from="1709602839575" duration="1339000" />
+      <workItem from="1709614323584" duration="4541000" />
+      <workItem from="1709694238035" duration="2979000" />
+      <workItem from="1709785785384" duration="3714000" />
+      <workItem from="1709794788101" duration="65000" />
+      <workItem from="1709806952292" duration="891000" />
+      <workItem from="1709811141484" duration="4589000" />
+      <workItem from="1709861316301" duration="3720000" />
+      <workItem from="1709865714511" duration="9188000" />
+      <workItem from="1709889007757" duration="3436000" />
+      <workItem from="1709897523345" duration="3406000" />
+      <workItem from="1709950551353" duration="11046000" />
+      <workItem from="1710030170436" duration="11056000" />
+      <workItem from="1710052310064" duration="1199000" />
+      <workItem from="1710066021752" duration="4103000" />
+      <workItem from="1710076988869" duration="266000" />
+      <workItem from="1710077300688" duration="3820000" />
+      <workItem from="1710121659359" duration="3202000" />
+      <workItem from="1710130276501" duration="3441000" />
+      <workItem from="1710137327229" duration="4731000" />
+      <workItem from="1710152171285" duration="2005000" />
+      <workItem from="1710155162961" duration="323000" />
+      <workItem from="1710159044779" duration="4445000" />
+      <workItem from="1710202780105" duration="12000" />
+      <workItem from="1710205715601" duration="1852000" />
+      <workItem from="1710214625025" duration="599000" />
+      <workItem from="1710217784205" duration="1540000" />
+    </task>
+    <task id="LOCAL-00001" summary="add file">
+      <option name="closed" value="true" />
+      <created>1709824712114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709824712114</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add file">
+      <option name="closed" value="true" />
+      <created>1709824865499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709824865499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add file">
+      <option name="closed" value="true" />
+      <created>1709824909838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709824909838</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add file">
+      <option name="closed" value="true" />
+      <created>1709824931775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709824931775</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hi world">
+      <option name="closed" value="true" />
+      <created>1709825199911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709825199911</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1709890664185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890664185</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1709898483206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709898483206</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1709899144261</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709899144261</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1709900153686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709900153686</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1709900205018</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709900205018</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1709984308618</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709984308618</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1710046267054</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710046267054</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1710071959723</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710071959723</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py">
+      <option name="closed" value="true" />
+      <created>1710071978811</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710071978811</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;v1.0">
+      <option name="closed" value="true" />
+      <created>1710076927587</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710076927587</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;v1.0">
+      <option name="closed" value="true" />
+      <created>1710077215680</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710077215680</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;v1.0">
+      <option name="closed" value="true" />
+      <created>1710081241830</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710081241830</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/version-1'&#10;&#10;v1.0">
+      <option name="closed" value="true" />
+      <created>1710142200592</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710142200592</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add file" />
+    <MESSAGE value="hi world" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;444.py" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;v1.0" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/version-1'&#10;&#10;v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/version-1'&#10;&#10;v1.0" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_telebot_py$444.coverage" NAME="444 Coverage Results" MODIFIED="1709862364610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$gggggg.coverage" NAME="444 Coverage Results" MODIFIED="1709790005596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$bot_copy.coverage" NAME="bot_copy Coverage Results" MODIFIED="1709878717262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$my_telebot2.coverage" NAME="my_telebot2 Coverage Results" MODIFIED="1709871281560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$my_telebot.coverage" NAME="my_telebot Coverage Results" MODIFIED="1709897947049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$test_function.coverage" NAME="translit_bot Coverage Results" MODIFIED="1710076593166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Documents$test_drive_command_bots___.coverage" NAME="test_drive command_bots )) Coverage Results" MODIFIED="1708432092500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$translit_bot.coverage" NAME="translit_bot Coverage Results" MODIFIED="1710206074557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Documents$my_telebot.coverage" NAME="my_telebot Coverage Results" MODIFIED="1706598440406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1709825154210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$my_telebot__1_.coverage" NAME="my_telebot (1) Coverage Results" MODIFIED="1709865484307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Downloads" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$my_telebot1.coverage" NAME="my_telebot1 Coverage Results" MODIFIED="1710039234903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Documents$bot_copy.coverage" NAME="bot_copy Coverage Results" MODIFIED="1708415623023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Documents$translit_bot.coverage" NAME="translit_bot Coverage Results" MODIFIED="1710219183131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_telebot_py$test_drive_command_bots___.coverage" NAME="my_telebot1 Coverage Results" MODIFIED="1709892020674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Documents$telebot.coverage" NAME="my_telebot Coverage Results" MODIFIED="1705549750076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Documents$main.coverage" NAME="main Coverage Results" MODIFIED="1710219175801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Documents$my_telebot2.coverage" NAME="my_telebot2 Coverage Results" MODIFIED="1708415595641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

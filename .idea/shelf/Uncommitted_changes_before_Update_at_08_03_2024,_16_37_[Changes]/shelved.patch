@@ -1,0 +1,28 @@
+Index: xxx.py
+===================================================================
+diff --git a/xxx.py b/xxx.py
+deleted file mode 100644
+--- a/xxx.py	(revision fe9fb468ba4994259befa99f526fff59d1f8e866)
++++ /dev/null	(revision fe9fb468ba4994259befa99f526fff59d1f8e866)
+@@ -1,4 +0,0 @@
+-a = 1
+-b = 2
+-c = (a+b)
+-print(c)
+\ No newline at end of file
+Index: 444.py
+===================================================================
+diff --git a/444.py b/444.py
+deleted file mode 100644
+--- a/444.py	(revision fe9fb468ba4994259befa99f526fff59d1f8e866)
++++ /dev/null	(revision fe9fb468ba4994259befa99f526fff59d1f8e866)
+@@ -1,9 +0,0 @@
+-a = 1
+-b = 2
+-c = a + b
+-print(c)
+-
+-<<<<<<< HEAD
+-print('hi world')
+-=======
+->>>>>>> origin/main
