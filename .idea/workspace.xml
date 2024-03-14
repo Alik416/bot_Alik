@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a7b19c-7039-4924-8a31-8d3a3d5b12e0" name="Changes" comment="Merge remote-tracking branch 'origin/version-1'&#10;&#10;v1.0">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Documents.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/. evn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.localized" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/444.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot_copy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_telebot1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_telebot2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price_list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translit_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/translit_bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,6 +392,14 @@
       <workItem from="1710205715601" duration="1852000" />
       <workItem from="1710214625025" duration="599000" />
       <workItem from="1710217784205" duration="1540000" />
+      <workItem from="1710302810385" duration="2784000" />
+      <workItem from="1710320758691" duration="1246000" />
+      <workItem from="1710323075469" duration="377000" />
+      <workItem from="1710326532983" duration="778000" />
+      <workItem from="1710330721009" duration="597000" />
+      <workItem from="1710332080155" duration="3335000" />
+      <workItem from="1710379296108" duration="4197000" />
+      <workItem from="1710401853193" duration="10153000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <option name="closed" value="true" />
@@ -611,7 +608,7 @@
     <SUITE FILE_PATH="coverage/my_telebot_py$my_telebot__1_.coverage" NAME="my_telebot (1) Coverage Results" MODIFIED="1709865484307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Downloads" />
     <SUITE FILE_PATH="coverage/my_telebot_py$my_telebot1.coverage" NAME="my_telebot1 Coverage Results" MODIFIED="1710039234903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Documents$bot_copy.coverage" NAME="bot_copy Coverage Results" MODIFIED="1708415623023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Documents$translit_bot.coverage" NAME="translit_bot Coverage Results" MODIFIED="1710219183131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Documents$translit_bot.coverage" NAME="translit_bot Coverage Results" MODIFIED="1710428606089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/my_telebot_py$test_drive_command_bots___.coverage" NAME="my_telebot1 Coverage Results" MODIFIED="1709892020674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Documents$telebot.coverage" NAME="my_telebot Coverage Results" MODIFIED="1705549750076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Documents$main.coverage" NAME="main Coverage Results" MODIFIED="1710219175801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
